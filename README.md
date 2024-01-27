@@ -1,7 +1,7 @@
 # Mosquitto preconfigured
 
 * no authentication
-* persistence true
+* persistence false
 * listening on 1883
 * logging on console only
 
