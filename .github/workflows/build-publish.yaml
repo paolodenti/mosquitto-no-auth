@@ -36,4 +36,4 @@ jobs:
         with:
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: paolodenti/mosquitto-no-auth:${{ steps.getversion.outputs.version }}
+          tags: paolodenti/mosquitto-no-auth:${{ steps.getversion.outputs.version }},paolodenti/mosquitto-no-auth:latest

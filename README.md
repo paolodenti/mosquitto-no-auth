@@ -14,5 +14,5 @@ set_tcp_nodelay ${SET_TCP_NODELAY:-true}
 ## Usage example
 
 ```bash
-docker run -e LISTENER=1884 -e SET_TCP_NODELAY=false paolodenti/mosquitto-no-auth:1.0.0
+docker run -e LISTENER=1884 -e SET_TCP_NODELAY=false paolodenti/mosquitto-no-auth:1.0.1
 ```
